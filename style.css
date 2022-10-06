@@ -1,0 +1,126 @@
+.all,
+.monday,
+.tuesday,
+.wednesday,
+.thurday,
+.friday {
+  background: linear-gradient(to bottom right, #bbe1ee, #4198c3, #5291bc);
+
+  font-family: "Roboto";
+}
+.all {
+  color: white;
+  position: relative;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 15px 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 60px;
+}
+
+h1 {
+  font-size: 60px;
+  font-style: italic;
+  float: inline-start;
+}
+
+h3 {
+  font-style: italic;
+}
+h2 {
+  font-size: 30px;
+  font-style: bold;
+  float: inline-start;
+}
+li {
+  list-style: none;
+}
+.temperature {
+  position: relative;
+  font-size: 60px;
+}
+.row-wind {
+  padding: 50px;
+  position: relative;
+  font-size: 25px;
+  float: right;
+}
+.date {
+  font-size: 25px;
+}
+.text {
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 14px 20px;
+  line-height: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.submit,
+.btn {
+  margin: 20px;
+  border-radius: 25px;
+  border: 1px solid black;
+  color: black;
+  font-size: 16px;
+  padding: 14px 20px;
+  line-height: 10px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  float: inline-start;
+}
+.submit:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #bbe1ee, #4198c3, #5291bc);
+  color: white;
+}
+
+div {
+  text-align: center;
+  position: relative;
+  color: white;
+  font-style: italic;
+  margin: 15px 15px 15px 15px;
+}
+div:hover {
+  background: #bbe1ee;
+  color: black;
+}
+.all:hover {
+  background: linear-gradient(to bottom right, #bbe1ee, #4198c3, #5291bc);
+}
+
+.monday,
+.tuesday,
+.wednesday,
+.thurday,
+.friday {
+  border: 1px solid #ffffff;
+  font-size: 20px;
+  border-radius: 15px 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  max-width: 1000px;
+  padding: 30px 60px;
+  margin: 0 auto;
+}
+.monday,
+.tuesday,
+.wednesday,
+.thurday,
+.friday,
+.all:hover {
+  cursor: pointer;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+  line-height: 1;
+  font-weight: 400;
+  font-size: 15px;
+}
