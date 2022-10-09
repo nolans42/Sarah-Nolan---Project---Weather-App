@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container"></div>
+    <div class="all">
+      <h1 id="city"></h1>
+      <
+      <h2>
+        <ul>
+           <li class="date" id="date">Monday 11:56</li>
+          <li id="description"></li>
+        </ul>
+      </h2>
+        <h3>
+        <span class="temperature" id="temperature" class="row" class="col-6">18 </span
+        ><span class="units">
+          <a href="#" id="celcius-link">℃</a>
+          <a href="#" id="fahrenheit-link">℉</a>
+        </span>
+        <div class="row-wind" class="col-6">
+          <ul>
+            <li>
+              Humidity: <span id="humidity"></span>%
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Wind: <span id="wind"></span>km/h
+            </li>
+          </ul>
+        </div>
+      </h3>
+      <form  class="search-form" id="search-form">
+       
+        <input
+          type="text"
+          placeholder="🔍 Search for a city"
+          id="city-input"
+          class="text"/>
+       
+        <br />
+        <input type="submit" value="Search" class="submit" />
+       <button class="btn btn-success" id="current-location-button">
+      Current 📍
+    </button>
+      </form>
+    </div>
+    
+    <div class="row monday">
+      <div class="col-5">Monday</div>
+      <div class="col-5">
+        18°C <br />
+        Sunny ☀️
+      </div>
+    </div>
+    <div class="row tuesday">
+      <div class="col-5">Tuesday</div>
+      <div class="col-5">
+        14°C <br />
+        Rainy 🌧️
+      </div>
+    </div>
+    <div class="row wednesday">
+      <div class="col-5">Wednesday</div>
+      <div class="col-5">
+        12°C <br />
+        Cloudy ☁️
+      </div>
+    </div>
+    <div class="row thurday">
+      <div class="col-5">Thursday</div>
+      <div class="col-5">
+        11°C <br />
+        Partly Cloudy ⛅
+      </div>
+    </div>
+    <div class="row friday">
+      <div class="col-5">Friday</div>
+      <div class="col-5">
+        17°C <br />
+        Sunny ☀️
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
