@@ -16,6 +16,7 @@
   </head>
   <body>
     <div class="container"></div>
+    <div class="weather-app-wrapper">
     <div class="all">
       <h1 id="city"></h1>
 
@@ -48,56 +49,38 @@
           id="city-input"
           class="text"
         />
-
         <br />
         <input type="submit" value="Search" class="submit" />
-        <button class="btn btn-success" id="current-location-button">
+        <button class="btn btn-light" id="current-location-button">
           Current 📍
         </button>
       </form>
-    </div>
-
-    <div class="row monday">
-      <div class="col-5">Monday</div>
-      <div class="col-5">
-        18°C <br />
-        Sunny ☀️
+    <div class="weather-forecast">
+      <div class = "row">
+      <div class="col-2">
+      <div class="weather-forecast-date">Monday</div>
+      <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
+        alt=""
+        width="42"
+        />
+        <div class="weather-forecast-temperature">
+        <span class="weather-forecast-temperature-max">
+          18°C</span>
+          <span class="weather-forecast-temperature-min">
+          12°C</span> 
+        </div>
       </div>
     </div>
-    <div class="row tuesday">
-      <div class="col-5">Tuesday</div>
-      <div class="col-5">
-        14°C <br />
-        Rainy 🌧️
-      </div>
     </div>
-    <div class="row wednesday">
-      <div class="col-5">Wednesday</div>
-      <div class="col-5">
-        12°C <br />
-        Cloudy ☁️
-      </div>
-    </div>
-    <div class="row thurday">
-      <div class="col-5">Thursday</div>
-      <div class="col-5">
-        11°C <br />
-        Partly Cloudy ⛅
-      </div>
-    </div>
-    <div class="row friday">
-      <div class="col-5">Friday</div>
-      <div class="col-5">
-        17°C <br />
-        Sunny ☀️
-      </div>
-    </div>
+  </div>
     <small>
       <a href="https://github.com/nolans42/Sarah-Nolan---Project---Weather-App">
         Open-source code</a
       >
       by Sarah Nolan
     </small>
+  </div>
+</div>
     <script src="script.js"></script>
   </body>
 </html>
